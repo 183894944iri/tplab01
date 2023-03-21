@@ -54,7 +54,7 @@ mv -i test ~/boost-lib
 10. du -ah
 
 
-11. build % find . -xdev -type f -not -type d -print | xargs ls -lh | sort -k5,5 -h -r | head
+11. find . -xdev -type f -not -type d -print | xargs ls -lh | sort -k5,5 -h -r | head
 
 
 
